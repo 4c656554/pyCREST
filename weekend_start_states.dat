@@ -1,0 +1,31 @@
+#weekend_start_states.dat - Based on 'occ_start_states' tab in CREST Domestic Electricity Demand Model 1.0d by Ian Richardson http://homepages.lboro.ac.uk/~eliwr/
+Columns tab delimited - Data starts on line 22 of file.
+
+Probability distributions of the number of active occupants in a house between 00:00 and 00:10						
+						
+Weekend active occupancy distribution between 00:00 and 00:10						
+
+Row references:
+Zero active occupants
+One active occupant
+Two active occupants
+Three active occupants
+Four active occupants
+Five active occupants
+Six active occupants
+
+
+
+Column references (Number of residents in the house)	1	2	3	4	5	6
+
+
+0.829	0.768	0.676	0.676	0.547	0.667
+0.171	0.161	0.210	0.207	0.250	0.139
+0.000	0.071	0.094	0.092	0.109	0.111
+0.000	0.000	0.019	0.016	0.078	0.028
+0.000	0.000	0.000	0.009	0.000	0.056
+0.000	0.000	0.000	0.000	0.016	0.000
+0.000	0.000	0.000	0.000	0.000	0.000
+
+
+
