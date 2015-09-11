@@ -23,30 +23,30 @@ This will create 10 profiles for weekend daytype in month 1. The information is 
 
 [3] Office for National Statistics UK, “Families and households, 2001 to 2011 - Data Set - Table 5.” [Online]. Available: bit.ly/KQQB58. [Accessed: 27-Feb-2012]
 
-License:
+# License:
 
-   Copyright (C) 2008, 2011 Ian Richardson*, Murray Thomson*, 2013 Lee Thomas**
+    Copyright (C) 2008, 2011 Ian Richardson*, Murray Thomson*, 2013 Lee Thomas**
 
-   *CREST (Centre for Renewable Energy Systems Technology),
-   Department of Electronic and Electrical Engineering
-   Loughborough University, Leicestershire LE11 3TU, UK
-   Tel. +44 1509 635326. Email address: I.W.Richardson@lboro.ac.uk
+       *CREST (Centre for Renewable Energy Systems Technology),
+       Department of Electronic and Electrical Engineering
+       Loughborough University, Leicestershire LE11 3TU, UK
+       Tel. +44 1509 635326. Email address: I.W.Richardson@lboro.ac.uk
 
-   ** Institute of Energy, 
-   Cardiff School of Engineering
-   Cardiff University, CF24 3AA
-   Tel. +442920870674. Email address: ThomasL62@cf.ac.uk
-   http://energy.engineering.cf.ac.uk/
-
-   This program is free software: you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation, either version 3 of the License, or
-   (at your option) any later version.
-
-   This program is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-
-   You should have received a copy of the GNU General Public License
-   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+       ** Institute of Energy, 
+       Cardiff School of Engineering
+       Cardiff University, CF24 3AA
+       Tel. +442920870674. Email address: ThomasL62@cf.ac.uk
+       http://energy.engineering.cf.ac.uk/
+    
+       This program is free software: you can redistribute it and/or modify
+       it under the terms of the GNU General Public License as published by
+       the Free Software Foundation, either version 3 of the License, or
+       (at your option) any later version.
+    
+       This program is distributed in the hope that it will be useful,
+       but WITHOUT ANY WARRANTY; without even the implied warranty of
+       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+       GNU General Public License for more details.
+    
+       You should have received a copy of the GNU General Public License
+       along with this program.  If not, see <http://www.gnu.org/licenses/>.
