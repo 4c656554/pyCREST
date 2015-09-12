@@ -32,6 +32,7 @@ import pprint
 from random import random
 import math
 import csv
+import time
 
 
 def create_profiles(n=1,month=7,daytype='weekday'):
@@ -70,6 +71,8 @@ def create_profiles(n=1,month=7,daytype='weekday'):
 
 	
 	for i in range (0,no_its):
+		if i==0:
+			time1 = time.time()
 		appliances_in_dwelling = ConfigureAppliancesInDwelling(appliances)
 		
 		activity_stats = numpy.genfromtxt('activity_stats.dat',skip_header=11,dtype=(None))
@@ -337,7 +340,9 @@ def create_profiles(n=1,month=7,daytype='weekday'):
 		# plt.savefig('out_'+idstring+'.png')
 
 ###################################################################################################################
-		
+		if i==0:
+			timet = time.time()-time1
+			print 'Approx time to completion = ' + str(timet*n) + ' seconds.'
 	# save sim_data to file here
 	Pfile = open('Pfile_'+idstring+'.dat', 'w')
 	
@@ -357,7 +362,8 @@ def create_profiles(n=1,month=7,daytype='weekday'):
 				Appliancesfile.writelines("%s\t" % item)
 		Appliancesfile.write("\n")
 	Appliancesfile.close
-	
+	timet = time.time()-time1
+	print 'Actual time to completion = ' + str(timet) + ' seconds.'	
 	
 
 		
